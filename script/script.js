@@ -2,6 +2,34 @@ let current = "0";
 let history = "";
 let lastOp = null;
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const themeIcon = document.getElementById('theme-icon');
+    const savedTheme = localStorage.getItem('theme') || 'dark-theme';
+    document.body.className = savedTheme;
+    if (savedTheme === 'dark-theme') {
+        themeIcon.src = 'icon/sun.png';
+    } else {
+        themeIcon.src = 'icon/moon.png';
+    }
+});
+
+
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+    if (body.classList.contains('dark-theme')) {
+        body.classList.remove('dark-theme');
+        body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light-theme');
+        themeIcon.src = 'icon/moon.png';
+    } else {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark-theme');
+        themeIcon.src = 'icon/sun.png';
+    }
+}
+
 function updateDisplay() {
   const displayEl = document.getElementById("display");
   displayEl.textContent = current;

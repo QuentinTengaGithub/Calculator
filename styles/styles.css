@@ -1,5 +1,107 @@
-body {
+.dark-theme {
       background: #222;
+      color: white;
+    }
+
+    .dark-theme h1 {
+        color: white;
+    }
+    
+    .dark-theme .calculator {
+      background: #111;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .dark-theme .display-history {
+      color: #f6a623;
+    }
+
+    .dark-theme .display {
+      border-bottom: 1px solid #333;
+    }
+
+    .dark-theme button {
+      background: #444;
+      color: white;
+    }
+
+    .dark-theme .theme-toggle-btn {
+      background-color: #444;
+    }
+
+    .dark-theme button:hover {
+      background: #555;
+    }
+
+    .dark-theme button:active {
+      background: #333;
+    }
+
+    .dark-theme .btn-ac {
+      background: #b33939;
+    }
+
+    .dark-theme .btn-equals {
+      background: #0a3d62;
+    }
+
+    .dark-theme .btn-op {
+      background: #666;
+    }
+
+    .light-theme {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .light-theme h1 {
+        color: #333;
+    }
+
+    .light-theme .calculator {
+      background: #e0e0e0;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      color: black;
+    }
+
+    .light-theme .display-history {
+      color: #ff8c00;
+    }
+
+    .light-theme .display {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .light-theme button {
+      background: #d0d0d0;
+      color: #333;
+    }
+
+    .light-theme .theme-toggle-btn {
+      background-color: #d0d0d0;
+    }
+
+    .light-theme button:hover {
+      background: #c0c0c0;
+    }
+
+    .light-theme button:active {
+      background: #b0b0b0;
+    }
+
+    .light-theme .btn-ac {
+      background: #d9534f;
+    }
+
+    .light-theme .btn-equals {
+      background: #5cb85c;
+    }
+
+    .light-theme .btn-op {
+      background: #f0ad4e;
+    }
+
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -9,7 +111,6 @@ body {
     }
 
     h1 {
-      color: white;
       font-size: 3em;
       margin-bottom: 20px;
     }
@@ -21,18 +122,34 @@ body {
       justify-content: center;
     }
 
+    .theme-toggle-btn {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+    }
+
+    #theme-icon {
+      width: 24px;
+      height: 24px;
+    }
+
     .calculator {
       width: 380px;
-      background: #111;
       border-radius: 10px;
       padding: 15px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
       color: white;
     }
 
     .display-history {
       text-align: right;
-      color: #f6a623;
       font-size: 22px;
       min-height: 24px;
     }
@@ -42,7 +159,6 @@ body {
       font-size: 42px;
       margin-bottom: 10px;
       min-height: 42px;
-      border-bottom: 1px solid #333;
       padding-bottom: 10px;
       transition: transform 0.1s ease-in-out;
     }
@@ -59,35 +175,25 @@ body {
     }
 
     button {
-      background: #444;
       border: none;
       padding: 20px;
       border-radius: 5px;
       font-size: 22px;
-      color: white;
       cursor: pointer;
       transition: background 0.2s;
     }
 
-    button:hover {
-      background: #555;
-    }
-
     button:active {
       transform: scale(0.95);
-      background: #333;
     }
 
     .btn-ac {
       grid-column: span 2;
-      background: #b33939;
     }
 
     .btn-equals {
-      background: #0a3d62;
       grid-row: span 2;
     }
-
+    
     .btn-op {
-      background: #666;
     }
