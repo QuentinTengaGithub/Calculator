@@ -1,199 +1,199 @@
 .dark-theme {
-      background: #222;
-      color: white;
-    }
+  background: #222;
+  color: white;
+}
 
-    .dark-theme h1 {
-        color: white;
-    }
-    
-    .dark-theme .calculator {
-      background: #111;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    }
+.dark-theme h1 {
+    color: white;
+}
 
-    .dark-theme .display-history {
-      color: #f6a623;
-    }
+.dark-theme .calculator {
+  background: #111;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 
-    .dark-theme .display {
-      border-bottom: 1px solid #333;
-    }
+.dark-theme .display-history {
+  color: #f6a623;
+}
 
-    .dark-theme button {
-      background: #444;
-      color: white;
-    }
+.dark-theme .display {
+  border-bottom: 1px solid #333;
+}
 
-    .dark-theme .theme-toggle-btn {
-      background-color: #444;
-    }
+.dark-theme button {
+  background: #444;
+  color: white;
+}
 
-    .dark-theme button:hover {
-      background: #555;
-    }
+.dark-theme .theme-toggle-btn {
+  background-color: #444;
+}
 
-    .dark-theme button:active {
-      background: #333;
-    }
+.dark-theme button:hover {
+  background: #555;
+}
 
-    .dark-theme .btn-ac {
-      background: #b33939;
-    }
+.dark-theme button:active {
+  background: #333;
+}
 
-    .dark-theme .btn-equals {
-      background: #0a3d62;
-    }
+.dark-theme .btn-ac {
+  background: #b33939;
+}
 
-    .dark-theme .btn-op {
-      background: #666;
-    }
+.dark-theme .btn-equals {
+  background: #0a3d62;
+}
 
-    .light-theme {
-      background: #f0f0f0;
-      color: #333;
-    }
+.dark-theme .btn-op {
+  background: #666;
+}
 
-    .light-theme h1 {
-        color: #333;
-    }
+.light-theme {
+  background: #f0f0f0;
+  color: #333;
+}
 
-    .light-theme .calculator {
-      background: #e0e0e0;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-      color: black;
-    }
+.light-theme h1 {
+    color: #333;
+}
 
-    .light-theme .display-history {
-      color: #ff8c00;
-    }
+.light-theme .calculator {
+  background: #e0e0e0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  color: black;
+}
 
-    .light-theme .display {
-      border-bottom: 1px solid #ccc;
-    }
+.light-theme .display-history {
+  color: #ff8c00;
+}
 
-    .light-theme button {
-      background: #d0d0d0;
-      color: #333;
-    }
+.light-theme .display {
+  border-bottom: 1px solid #ccc;
+}
 
-    .light-theme .theme-toggle-btn {
-      background-color: #d0d0d0;
-    }
+.light-theme button {
+  background: #d0d0d0;
+  color: #333;
+}
 
-    .light-theme button:hover {
-      background: #c0c0c0;
-    }
+.light-theme .theme-toggle-btn {
+  background-color: #d0d0d0;
+}
 
-    .light-theme button:active {
-      background: #b0b0b0;
-    }
+.light-theme button:hover {
+  background: #c0c0c0;
+}
 
-    .light-theme .btn-ac {
-      background: #d9534f;
-    }
+.light-theme button:active {
+  background: #b0b0b0;
+}
 
-    .light-theme .btn-equals {
-      background: #5cb85c;
-    }
+.light-theme .btn-ac {
+  background: #d9534f;
+}
 
-    .light-theme .btn-op {
-      background: #f0ad4e;
-    }
+.light-theme .btn-equals {
+  background: #5cb85c;
+}
 
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
+.light-theme .btn-op {
+  background: #f0ad4e;
+}
 
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-    .calculator-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
 
-    .theme-toggle-btn {
-      margin-bottom: 15px;
-      padding: 10px;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 50px;
-      height: 50px;
-    }
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-    #theme-icon {
-      width: 24px;
-      height: 24px;
-    }
+.theme-toggle-btn {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
 
-    .calculator {
-      width: 380px;
-      border-radius: 10px;
-      padding: 15px;
-      color: white;
-    }
+#theme-icon {
+  width: 24px;
+  height: 24px;
+}
 
-    .display-history {
-      text-align: right;
-      font-size: 22px;
-      min-height: 24px;
-    }
+.calculator {
+  width: 380px;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+}
 
-    .display {
-      text-align: right;
-      font-size: 42px;
-      margin-bottom: 10px;
-      min-height: 42px;
-      padding-bottom: 10px;
-      transition: transform 0.1s ease-in-out;
-    }
+.display-history {
+  text-align: right;
+  font-size: 22px;
+  min-height: 24px;
+}
 
-    .display-animate {
-      transform: scale(1.05);
-    }
+.display {
+  text-align: right;
+  font-size: 42px;
+  margin-bottom: 10px;
+  min-height: 42px;
+  padding-bottom: 10px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.display-animate {
+  transform: scale(1.05);
+}
 
 
-    .buttons {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-    }
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
 
-    button {
-      border: none;
-      padding: 20px;
-      border-radius: 5px;
-      font-size: 22px;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
+button {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
 
-    button:active {
-      transform: scale(0.95);
-    }
+button:active {
+  transform: scale(0.95);
+}
 
-    .btn-ac {
-      grid-column: span 2;
-    }
+.btn-ac {
+  grid-column: span 2;
+}
 
-    .btn-equals {
-      grid-row: span 2;
-    }
-    
-    .btn-op {
-    }
+.btn-equals {
+  grid-row: span 2;
+}
+
+.btn-op {
+}
